@@ -1,0 +1,75 @@
+    body {
+        background-color: black;
+        align-content: center;
+    }
+    
+    header {
+        display: flex;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .logo {
+        color: white;
+        display: flex;
+    }
+    
+    li {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    ul {
+        display: flex;
+        align-content: space-between;
+        background-color: black;
+    }
+    
+    .i-class {
+        color: white;
+        align-items: right;
+    }
+    
+    .title {
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Photo {
+        align-items: center;
+        margin: auto;
+    }
+    
+    .Japan {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .text {
+        color: white;
+        text-align: center;
+    }
+    
+    @media (min-width: 600px) {
+        p {
+            font-size: 1.25 rem;
+        }
+    }
+    
+    @media (min-width: 800px) {
+        p {
+            font-size: 1.5 rem;
+            line-height: 1.5;
+        }
+    }
+    
+    @media (max-width:500px) {
+        .Japan {
+            max-width: 400px;
+            width: 100%;
+        }
+    }
